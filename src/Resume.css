@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.resbody {
+    margin-top: 50px;
+    color: #000000;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom : 50px;
+}
+
+.title {
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.circleLogo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    background-color: #F64444;
+    display: flex;
+}
+
+.circleLogo > div {
+    font-size: 50px;
+    font-family: Montserrat;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.title > img {
+    width: 300px;
+}
+
+.resbody > .title > p {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #000000;
+}
+
+.contacts > * {
+    display : inline-block;
+    padding-right : 30px;
+    padding-top : 20px;
+}
+
+.contacts > * > * {
+    display : inline-block;
+    vertical-align: middle;
+}
+
+.contacts > * > img {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.body {
+    width : 90%;
+    align-self: center;
+}
+
+.body > * {
+    width : 100%;
+    padding : 20px 50px 0px 50px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sec {
+    font-size : 30px;
+    font-weight : medium;
+    color: #F64444;
+    width: 90%;
+    background-color: #F8F2F2;
+    margin: 30px 0 30px 0;
+    
+}
+
+.info, .info_skills {
+    font-size : 18px;
+    font-weight : medium;
+    padding: 10px 40px 10px 40px;
+    width: 95%;
+}
+
+.info > div {
+    padding-bottom : 10px;
+}
+
+.info > p {
+    font-size : 16px;
+}
+
+.dis {
+    font-size : 14px;
+    padding: 3px 0px 5px;
+}
+
+.info > ul {
+    padding-left: 20px;
+    /* list-style-image: url('./img/bullet.jpg'); */
+}
+
+.info > ul > li {
+	margin: 7px 0 0 0;
+	padding: 0 15px 0;
+	list-style: none;
+	background-image: url('./img/bullet.jpg');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}
+
+.info > ul > * {
+    font-size : 14px;
+    padding-top : 5px;
+}
+
+.dates {
+    width: 20%;
+    text-align: right;
+    font-style: italic;
+    padding-left: 0px;
+    vertical-align: text-top;
+}
+
+.info > table {
+    width: 100%;
+}
+
+.info > table > tbody > tr > * {
+    font-family: Montserrat;
+    font-weight : lighter;
+    font-size : 14px;
+    padding : 15px 0px 7px 50px;
+}
+
+.info > table > tbody > tr > th > ul {
+    padding-left: 20px;
+}
+
+.info > table > tbody > tr > th > ul > li {
+	margin: 7px 0 0 0;
+	padding: 0 15px 0;
+	list-style: none;
+	background-image: url('./img/bullet.jpg');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}
+
+.jobTitle {
+    font-size : 16px;
+}
+
+.info_skills > p {
+    font-size : 14px;
+    line-height: 30px;
+}
+
+div.download {
+    margin-top : 50px;
+    padding: 15px;
+    align-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    color: #F64444;
+    text-align: center;
+}
+
+.download:hover {
+    background-color: #F8F2F2;
+}
+
+.download:active {
+    background-color: rgb(255, 233, 233);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.homebody {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    background-color: #F8F2F2;
+}
+
+.homebody > * {
+    padding : 20px 30px 20px;
+    margin: 0 auto;
+}
+
+.pic {
+    padding : 70px;
+    background-color: #F64444;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-pic {
+    width: 500px;
+    height: 500px;
+    margin : 0 auto;
+    margin-left : 0%;
+}
+
+@media (max-width: 580px) {
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.about {
+    background-color: white;
+    text-align: center;
+}
+
+.about_par {
+    max-width: 500px;
+    padding: 0 50px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.social_media {
+    border-right: 2px solid darkgrey;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.social_media > a > img {
+    width: 40px;
+    margin: 10px;
+}
+
+@media (max-width: 940px) {
+    .about_par {
+        flex-direction: column-reverse;
+    }
+
+    .social_media {
+        border-right: none;
+        border-top: 2px solid darkgrey;
+        margin-top: 20px;
+        padding-top: 20px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: #F64444;
+}
+
+.passtimes-wrapper {
+    text-align: center;
+}
+
+.pastimes {
+    background-color: #F8F2F2;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 640px;
+}
+
+.pastimes > div {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(39, 39, 39);
+    line-height: 30px;
+    padding: 30px;
+}
+
+div.pt1 {
+    font-size: 26px;
+    line-height: 60px;
+    color: #F64444;
+    border-style: none;
+    text-align: left;
+    padding: 0;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+.pt2 {
+    background-color: white;
+}
+
+.pt3 {
+    background-color: rgb(255, 205, 205);
+}
+
+.pt4 {
+    background-color: #F64444;
+}
+
+
+.pt_type {
+    padding-bottom: 10px;
+}
+
+.ani {
+    width : "100%";
+    text-align : "center";
+}
